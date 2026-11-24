@@ -1,34 +1,40 @@
-# Omarchy Theme: Blackbird (SR-71 Stratosphere Cockpit)
-# Palette anchored to Blackbird's built-in Hero Flight Deck "synthwave" theme
-# (src/flight_deck_hero.cpp).
+# Blackbird — SR-71 Stratosphere Cockpit theme for Omarchy v4.0+
+# Native 25-key palette calibrated to Blackbird's Hero Flight Deck `synthwave`
+# theme (src/flight_deck_hero.cpp).
 
 mode = "dark"
 
 # Core UI roles
 accent = "#ff2fd0"
-cursor = "#05d9e8"
-foreground = "#ff9de2"
-background = "#0b0120"
-selection_foreground = "#0b0120"
-selection_background = "#05d9e8"
+selection = "#3a0b5e"
 muted = "#7a5a9a"
 
-# Normal terminal colors (ANSI 0-7)
-color0 = "#0b0120"
-color1 = "#ff4f8b"
-color2 = "#5affaa"
-color3 = "#fff27a"
-color4 = "#6e5ae6"
-color5 = "#ff2fd0"
-color6 = "#05d9e8"
-color7 = "#ff9de2"
+# Surface depth hierarchy
+background = "#0b0120"
+dark_background = "#080118"
+darker_background = "#050010"
+lighter_background = "#1c0640"
 
-# Bright terminal colors (ANSI 8-15)
-color8 = "#3a0b5e"
-color9 = "#ff5078"
-color10 = "#5affaa"
-color11 = "#ff9a3c"
-color12 = "#5aaaff"
-color13 = "#b967ff"
-color14 = "#ffc88c"
-color15 = "#fffb96"
+# Text hierarchy
+foreground = "#f3d9f8"
+dark_foreground = "#9b7cb8"
+light_foreground = "#ff9de2"
+bright_foreground = "#fffb96"
+
+# Semantic & ANSI palette
+red = "#ff4f8b"
+yellow = "#fff27a"
+orange = "#ff9a3c"
+green = "#5affaa"
+cyan = "#05d9e8"
+blue = "#6e5ae6"
+magenta = "#ff2fd0"
+brown = "#7a3b4e"
+
+# Bright semantic & ANSI palette
+bright_red = "#ff6ea2"
+bright_yellow = "#fffb96"
+bright_green = "#86ffc1"
+bright_cyan = "#68eef7"
+bright_blue = "#8b7bff"
+bright_magenta = "#b967ff"
